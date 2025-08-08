@@ -269,7 +269,7 @@ section {
 }
 
 .home-imgHover:hover {
-    background: var(--bg-color);
+    background: white;
     opacity: .8;
 }
 
@@ -283,7 +283,7 @@ section {
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+    /* box-shadow: 0 0 25px var(--main-color); */
     z-index: 99;
 }
 
@@ -360,7 +360,6 @@ span {
     border-right: .2rem solid var(--main-color);
     animation: aboutSpinner 8s linear infinite;
 }
-.animate.home-img
 .about-content {
     text-align: center;
 }
